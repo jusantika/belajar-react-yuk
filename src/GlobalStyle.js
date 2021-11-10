@@ -4,11 +4,10 @@ const GlobalStyle = createGlobalStyle`
     :root{
         --purple-primary: #554DDE;
         --accent-pink: #F44E77;
-        --neutral-light: #16194F;
+        --neutral-light: #F2F6FF;
         --lavender-secondary: #6A6D9E; /*Primary Font Color*/
         --dark-primary: #16194F;
         --border-colour: #CAD6F1;
-        
     }
     *{
         margin: 0;
@@ -20,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         background-color: var(--neutral-light);
-        color: white;
+        color: var(--dark-primary);
         font-size: 1.2rem;
     }
 `;
