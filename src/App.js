@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './Components/Header';
+import { OuterLayout } from './styles/Layouts';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <OuterLayout>
+        <Header />
+      </OuterLayout>
     </div>
   );
 }
+//20.25
