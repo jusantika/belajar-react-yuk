@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function header() {
+function Header() {
   return (
     <div>
       <h1>Gimana Gengs?</h1>
